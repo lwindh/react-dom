@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_cli=self.webpackChunkreact_cli||[]).push([[106],{106:function(c,e,n){n.r(e),n.d(e,{default:function(){return t}});var r=n(893);function t(){return(0,r.jsx)("div",{children:"404"},void 0)}}}]);
