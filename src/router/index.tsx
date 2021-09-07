@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 export default function index() {
   const Home = lazy(() => import('../pages/Home'));
   const Page = lazy(() => import('../pages/Page'));
-  const Notfound = lazy(() => import('../pages/notfound'));
+  const Notfound = lazy(() => import('../pages/404'));
 
   return (
     <Suspense fallback={<h1>正在联网获取用户名...</h1>}>
