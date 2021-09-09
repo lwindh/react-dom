@@ -40,7 +40,6 @@ const baseWebpackConfig = {
               localIdentName: '[local]--[hash:base64:5]',
             },
           },
-          
         ],
       },
       {
