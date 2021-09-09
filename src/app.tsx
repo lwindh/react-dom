@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link, BrowserRouter as Router } from 'react-router-dom'
+import React from 'react';
+import { Link, BrowserRouter as Router } from 'react-router-dom';
 import RouterView from './router';
 
 export default function app() {
@@ -7,11 +7,15 @@ export default function app() {
     <div>
       <Router>
         <ul>
-          <li><Link to="/dist/">首页</Link></li>
-          <li><Link to="/dist/page">Page</Link></li>
+          <li>
+            <Link to="/dist/">首页</Link>
+          </li>
+          <li>
+            <Link to="/dist/page">Page</Link>
+          </li>
         </ul>
         <RouterView />
       </Router>
     </div>
-  )
+  );
 }
