@@ -8,6 +8,13 @@ module.exports = {
       legacyDecorators: true,
     },
   },
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint/eslint-plugin'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   env: {
     node: true,
     browser: true,
@@ -90,4 +97,9 @@ module.exports = {
       },
     ],
   },
+  extends: [
+    'alloy',
+    'alloy/react',
+    'alloy/typescript',
+  ],
 };
