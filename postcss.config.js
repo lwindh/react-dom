@@ -1,4 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const autoprefixer = require('autoprefixer')
 module.exports = {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  plugins: [require('autoprefixer')()],
+  plugins: [autoprefixer()],
 };
